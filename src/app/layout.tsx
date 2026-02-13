@@ -15,7 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Hello Milady!",
   description: "Painting you into my life.",
-  // Icons are handled automatically by icon.tsx and apple-icon.tsx
+  icons: {
+    icon: "/icon.jpg",
+    apple: "/apple-icon.jpg",
+  },
 };
 
 export default function RootLayout({
