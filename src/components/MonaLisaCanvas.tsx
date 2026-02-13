@@ -106,7 +106,7 @@ export default function MonaLisaCanvas({ progress, activeMode }: MonaLisaCanvasP
             <div
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-100 ease-linear"
                 style={{
-                    backgroundImage: `url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg')`,
+                    backgroundImage: `url('/mona-lisa.jpg')`,
                     backgroundPosition: "center 20%",
                     filter: `blur(${blurAmount}px) grayscale(${grayscaleAmount}%) contrast(${contrastAmount}%) sepia(${sepiaAmount}%) opacity(${opacityAmount})`,
                 }}
@@ -117,7 +117,7 @@ export default function MonaLisaCanvas({ progress, activeMode }: MonaLisaCanvasP
                 <div
                     className="absolute inset-0 bg-cover bg-no-repeat opacity-50 mix-blend-multiply pointer-events-none"
                     style={{
-                        backgroundImage: `url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg')`,
+                        backgroundImage: `url('/mona-lisa.jpg')`,
                         backgroundPosition: "top center",
                         filter: "contrast(200%) grayscale(100%) brightness(150%)", // High contrast sketch look
                         opacity: 1 - progress * 1.5
