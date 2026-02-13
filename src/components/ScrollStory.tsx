@@ -194,7 +194,7 @@ export default function ScrollStory() {
                     <Card>
                         <Title>The strange part is…</Title>
                         <Pause />
-                        <Text>I’ve never seen you.</Text>
+                        <Text>I've never met you.</Text>
                         <Pause />
                         <Title className="italic text-gray-800">Yet somehow you stopped feeling like a stranger.</Title>
                     </Card>
